@@ -8,7 +8,7 @@ bx.ready(function () {
   bx.each([1, 2, 3], console.log); // console.log(key, value);
 
   var person = {
-    name: Ondrei,
+    name: 'Ondrei',
     age: 22
   };
 

@@ -14,6 +14,7 @@ bx.ready(function () {
 
   person.watch('age', (prop, oldVal, newVal) => {
     console.log(prop, oldVal, newVal);
+    return newVal; // save on current model
   }); 
 
   person.age++; // console.log('age', 22, 23);

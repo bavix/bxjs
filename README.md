@@ -1,5 +1,19 @@
 # bxjs
 
+## model system
+
+```js
+var person = new bx.model({
+  name: 'Ondrei',
+  age: 22
+});
+
+person.age++;
+console.log(person.age); // 23
+```
+
+## simple framework
+
 ```js
 bx.ready(function () {
 

@@ -14,6 +14,7 @@
         <script src="../src/polyfill/localStorage.js"></script>
         <script src="../src/el.js"></script>
         <script src="../src/fetch.js"></script>
+        <script src="../src/model.js"></script>
 
         <script>
 
